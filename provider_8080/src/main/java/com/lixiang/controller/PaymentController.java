@@ -1,6 +1,7 @@
 package com.lixiang.controller;
 
 import com.lixiang.entity.Payment;
+import com.lixiang.res.Result;
 import com.lixiang.service.PaymentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -8,9 +9,8 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
 
@@ -28,13 +28,15 @@ public class PaymentController {
 
     @ApiOperation(value="添加")
     @PostMapping("/provider/insert")
-    public int insert(@RequestBody Payment payment) {
-        return paymentService.insert(payment);
+    public Result insert(@RequestBody Payment payment) {
+        int insert = paymentService.insert(payment);
+        return Result.success();
     }
 
     @ApiOperation(value="查找")
-    @PostMapping("/provider/findById")
-    public Payment findById(@RequestBody Long id) {
-        return paymentService.selectByPrimaryKey(id);
+    @GetMapping("/provider/find/{id}")
+    public Result<Payment> findById(@PathVariable(value = "id") Long id) {
+        Payment payment = paymentService.selectByPrimaryKey(id);
+        return Result.success(payment);
     }
 }

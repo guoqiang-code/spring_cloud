@@ -6,36 +6,11 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer_8081/src/main/java/com/lixiang/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_8081/src/main/java/com/lixiang/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_8081/src/main/java/com/lixiang/res/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/res/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/res/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/res/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/res/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/service/impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/mapperxml/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/mapperxml/PaymentMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring_cloud" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -96,6 +71,9 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lixiang.res" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lixiang" />
     </key>
@@ -189,6 +167,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,7 +190,7 @@
       <workItem from="1642557470831" duration="3451000" />
       <workItem from="1642561944066" duration="7448000" />
       <workItem from="1642741123624" duration="1650000" />
-      <workItem from="1643072638743" duration="5703000" />
+      <workItem from="1643072638743" duration="16389000" />
     </task>
     <servers />
   </component>
@@ -229,6 +210,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="137" key="#All_in_spring_cloud_demo" timestamp="1643106356738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="137" key="#All_in_spring_cloud_demo/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643106356738" />
     <state x="836" y="379" key="#Custom_Plugin_Repositories" timestamp="1642317445150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,42 +252,42 @@
     </state>
     <state x="744" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642317569786" />
     <state x="744" y="262" key="FileChooserDialogImpl/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1642557449284" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1643164298531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744845" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298531" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1643164298531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298531" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1643164298531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298531" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1643164298531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.0.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298531" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1643164298532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298532" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1643164298532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.1.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298532" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1643164298531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1643078370699">
+    <state width="1877" height="288" key="GridCell.Tab.1.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298531" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1643164298532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643078370699" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1643164298532" />
     <state x="566" y="150" width="858" height="652" key="Registry" timestamp="1642562344671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
