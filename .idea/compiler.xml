@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="provider_8080" />
         <module name="consumer_8081" />
+        <module name="cloud_eureka_server7002" />
+        <module name="cloud_eureka_server7001" />
       </profile>
     </annotationProcessing>
   </component>

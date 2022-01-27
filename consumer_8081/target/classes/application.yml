@@ -4,3 +4,14 @@ logging:
   level:
     cn.itcast: debug
     org.springframework: debug
+spring:
+  application:
+    name: spring-cloud-consumer
+eureka:
+  client:
+    #    将自己加入eureka服务
+    register-with-eureka: true
+    #    是都从eureka抓取自己的注册信息，默认为true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
