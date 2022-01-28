@@ -18,9 +18,14 @@ logging:
     org.springframework: debug
 eureka:
   client:
-#    将自己加入eureka服务
+    #    将自己加入eureka服务
     register-with-eureka: true
-#    是都从eureka抓取自己的注册信息，默认为true
+    #    是都从eureka抓取自己的注册信息，默认为true
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+#    自定义实例服务名
+    instance-id: provider8080
+#    显示ip
+    prefer-ip-address: true
