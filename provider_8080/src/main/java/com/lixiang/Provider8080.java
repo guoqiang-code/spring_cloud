@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
 
 /**
  * Hello world!
@@ -15,12 +14,12 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableEurekaClient
 @MapperScan(basePackages = "com.lixiang.dao")
-public class App {
+public class Provider8080 {
 
     private static String port;
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class,args);
+        SpringApplication.run(Provider8080.class,args);
         System.out.println("项目运行地址前缀：http://127.0.0.1:"+port+"/"+"\n"
         +"swagger: http://127.0.0.1:"+port+"/swagger-ui.html"+"\n"
         +"bootstrap地址：http://127.0.0.1:"+port+"/doc.html");

@@ -13,7 +13,7 @@ import java.util.Date;
  * Unit test for simple App.
  */
 @SpringBootTest
-public class AppTest {
+public class Provider8080Test {
     /**
      * Rigorous Test :-)
      */
