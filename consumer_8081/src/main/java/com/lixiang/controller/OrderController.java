@@ -69,6 +69,7 @@ public class OrderController {
         ServiceInstance instance=loadBalancer.instances(instances);
         URI uri = instance.getUri();
 
+        //http://10.248.190.56:8080 http://10.248.190.56:8079
         System.err.println(uri);
 
         return restTemplate.getForObject(uri+"provider/getPort",String.class);
