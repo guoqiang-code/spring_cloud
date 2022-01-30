@@ -5,6 +5,7 @@ spring:
     name: consul-cloud-consumer
   cloud:
     consul:
+#      配置以后可以在本地使用http://localhost:8500/访问consul地址
       host: localhost
       port: 8500
       discovery:

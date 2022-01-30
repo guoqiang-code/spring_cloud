@@ -12,6 +12,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @Slf4j
 @SpringBootApplication
+/**
+ * eureka的客户端注解
+ */
 @EnableEurekaClient
 public class Provider8079 {
     public static void main(String[] args) {
