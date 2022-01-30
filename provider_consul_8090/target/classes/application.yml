@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: consul-cloud-provider
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+mybatis:
+  mapper-locations: classpath:mapperxml/*.xml
+  type-aliases-package: com.lixiang.entity
+logging:
+  level:
+    cn.itcast: debug
+    org.springframework: debug

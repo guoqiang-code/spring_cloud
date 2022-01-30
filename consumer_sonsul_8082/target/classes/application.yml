@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: consul-cloud-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+logging:
+  level:
+    cn.itcast: debug
+    org.springframework: debug

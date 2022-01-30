@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_eureka_server7002" />
         <module name="common" />
+        <module name="provider_consul_8090" />
+        <module name="consumer_sonsul_8082" />
         <module name="provider_8080" />
         <module name="cloud_eureka_server7001" />
         <module name="consumer_8081" />
