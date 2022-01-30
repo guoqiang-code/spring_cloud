@@ -40,7 +40,7 @@ public class PaymentController {
     @PostMapping("/provider/insert")
     public Result insert(@RequestBody Payment payment) {
         int insert = paymentService.insert(payment);
-        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:");
+        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:"+port,payment);
         return paymentResult;
     }
 
@@ -61,6 +61,12 @@ public class PaymentController {
         instances.forEach(item->log.info(item.getServiceId()+"\t"+item.getHost()+"\t"+item.getPort()+"\t"+item.getUri()));
 
         return this.discoveryClient;
+    }
+
+
+    @GetMapping("/provider/getPort")
+    public String getPort() {
+        return port;
     }
 
 }

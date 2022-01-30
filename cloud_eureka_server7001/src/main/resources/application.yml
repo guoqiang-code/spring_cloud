@@ -15,6 +15,6 @@ eureka:
 #      相互注册，服务器之间互相守望，防止其中一个出现问题
       defaultZone: http://eureka7002.com:7002/eureka/
   #      eureka自我保护机制
-  server:
-    enable-self-preservation: false
-    eviction-interval-timer-in-ms: 2000
+#  server:
+#    enable-self-preservation: false
+#    eviction-interval-timer-in-ms: 2000

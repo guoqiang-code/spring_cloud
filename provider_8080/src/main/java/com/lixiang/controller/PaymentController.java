@@ -8,6 +8,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -29,7 +30,7 @@ public class PaymentController {
     @PostMapping("/provider/insert")
     public Result insert(@RequestBody Payment payment) {
         int insert = paymentService.insert(payment);
-        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:");
+        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:"+port,payment);
         return paymentResult;
     }
 
@@ -39,5 +40,10 @@ public class PaymentController {
         Payment payment = paymentService.selectByPrimaryKey(id);
         Result<Payment> result = new Result<>(200,"成功,serverPort:"+port,payment);
         return result;
+    }
+
+    @GetMapping("/provider/getPort")
+    public String getPort() {
+        return port;
     }
 }
