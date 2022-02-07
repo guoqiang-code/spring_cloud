@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author GuoQiang
  * @create 2022-01-16 16:46
@@ -44,6 +46,16 @@ public class PaymentController {
 
     @GetMapping("/provider/getPort")
     public String getPort() {
+        return port;
+    }
+
+    @GetMapping("/provider/feign/timeout")
+    public String feignTimeout(){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return port;
     }
 }

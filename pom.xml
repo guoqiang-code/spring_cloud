@@ -16,6 +16,7 @@
         <module>provider_8079</module>
         <module>provider_consul_8090</module>
         <module>consumer_sonsul_8082</module>
+        <module>consumer_feign_8083</module>
     </modules>
     <packaging>pom</packaging>
 

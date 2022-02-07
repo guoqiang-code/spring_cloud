@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author GuoQiang
@@ -23,7 +24,7 @@ import java.util.Objects;
  */
 @Slf4j
 @RestController
-@Api(value="测试数据",tags = "测试1")
+@Api(value = "测试数据", tags = "测试1")
 public class PaymentController {
 
     @Autowired
@@ -36,29 +37,29 @@ public class PaymentController {
     @Resource
     private DiscoveryClient discoveryClient;
 
-    @ApiOperation(value="添加")
+    @ApiOperation(value = "添加")
     @PostMapping("/provider/insert")
     public Result insert(@RequestBody Payment payment) {
         int insert = paymentService.insert(payment);
-        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:"+port,payment);
+        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:" + port, payment);
         return paymentResult;
     }
 
-    @ApiOperation(value="查找")
+    @ApiOperation(value = "查找")
     @GetMapping("/provider/find/{id}")
     public Result<Payment> findById(@PathVariable(value = "id") Long id) {
         Payment payment = paymentService.selectByPrimaryKey(id);
-        Result<Payment> result = new Result<>(200,"成功,serverPort:"+port,payment);
+        Result<Payment> result = new Result<>(200, "成功,serverPort:" + port, payment);
         return result;
     }
 
     //服务发现
     @GetMapping("provider/discovery")
-    public Object discovery(){
+    public Object discovery() {
         List<String> services = discoveryClient.getServices();
         services.forEach(log::info);
         List<ServiceInstance> instances = discoveryClient.getInstances("SPRING-CLOUD-PROVIDER");
-        instances.forEach(item->log.info(item.getServiceId()+"\t"+item.getHost()+"\t"+item.getPort()+"\t"+item.getUri()));
+        instances.forEach(item -> log.info(item.getServiceId() + "\t" + item.getHost() + "\t" + item.getPort() + "\t" + item.getUri()));
 
         return this.discoveryClient;
     }
@@ -66,6 +67,16 @@ public class PaymentController {
 
     @GetMapping("/provider/getPort")
     public String getPort() {
+        return port;
+    }
+
+    @GetMapping("/provider/feign/timeout")
+    public String feignTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return port;
     }
 
