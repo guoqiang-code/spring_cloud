@@ -1,9 +1,12 @@
 package com.lixiang.service.impl;
 
+import cn.hutool.core.util.IdUtil;
 import com.lixiang.service.PaymentService;
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,6 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2022/2/7 14:00
  */
 @Service
+@DefaultProperties(threadPoolKey = "paymentInfoTimeoutHandler")
 public class PaymentServiceImpl implements PaymentService {
     @Override
     public String providerInfo(Integer id) {
@@ -42,5 +46,28 @@ public class PaymentServiceImpl implements PaymentService {
 
     public String paymentInfoTimeoutHandler(Integer id) {
         return "线程池： " + Thread.currentThread().getName() + "\t paymentInfoTimeoutHandler, id:" + id + "\t" + "(ㄒoㄒ)~~~~系统忙";
+    }
+
+//    服务熔断
+
+    @Override
+    @HystrixCommand(fallbackMethod = "circuitBreakerFallback", commandProperties = {
+            @HystrixProperty(name = "circuitBreaker.enabled", value = "true"),//是否开启断路器
+            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",value = "10"),//请求次数
+            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "10000"),//时间窗口期
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage",value = "60")//失败率达到多少次后跳闸
+    })
+    public String paymentCircuitBreaker(Integer id) {
+        if (id < 0) {
+            throw new RuntimeException("id不能为负数~~~~~~~~/(ㄒoㄒ)/~~");
+        }
+        String simpleUUID = IdUtil.simpleUUID();
+
+        return Thread.currentThread().getName() + "\t  流水号：" + simpleUUID;
+    }
+
+
+    public String circuitBreakerFallback(Integer id) {
+        return "id  不能为负数，请输入正确的值！！~~~~" + id;
     }
 }

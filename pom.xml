@@ -19,6 +19,7 @@
         <module>consumer_sonsul_8082</module>
         <module>consumer_feign_8083</module>
         <module>cloud_consumer_feign_hystrix_8084</module>
+        <module>cloud_hystrix_dashboard_9001</module>
     </modules>
     <packaging>pom</packaging>
 

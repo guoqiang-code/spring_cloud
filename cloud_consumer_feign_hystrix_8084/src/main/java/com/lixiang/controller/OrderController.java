@@ -25,29 +25,40 @@ public class OrderController {
     private PaymentHystrixFeignService service;
 
     @GetMapping("/consumer/hystrix/info/{id}")
-    public String providerInfo(@PathVariable("id") Integer id){
+    public String providerInfo(@PathVariable("id") Integer id) {
         return service.providerInfo(id);
-    };
+    }
+
+    ;
 
     /**
-     *和提供者相同的配置
+     * 和提供者相同的配置
+     *
      * @param id
      * @return
      */
 //    @HystrixCommand(fallbackMethod = "paymentInfoTimeoutHandler", commandProperties = {
 //            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000")
 //    })
-    @HystrixCommand
+//    @HystrixCommand
     @GetMapping("/consumer/hystrix/info-timeout/{id}")
-    public String providerInfoTimeout(@PathVariable("id") Integer id){
+    public String providerInfoTimeout(@PathVariable("id") Integer id) {
         return service.providerInfoTimeout(id);
-    };
-
-    public String paymentInfoTimeoutHandler(Integer id) {
-        return "调用支付接口失败：" +"\t" + "(ㄒoㄒ)~~~~系统忙";
     }
 
-    public  String globalFallbackMethod(){
+    ;
+
+    public String paymentInfoTimeoutHandler(Integer id) {
+        return "调用支付接口失败：" + "\t" + "(ㄒoㄒ)~~~~系统忙";
+    }
+
+    public String globalFallbackMethod() {
         return "全局连接超时调用~~~~~~~`(*>﹏<*)′";
+    }
+
+
+    @GetMapping("/consumer/hystrix/info-circuitBreaker/{id}")
+    public String consumerInfoCircuitBreaker(@PathVariable("id") Integer id) {
+        return service.providerInfoCircuitBreaker(id);
     }
 }

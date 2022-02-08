@@ -1,5 +1,6 @@
 package com.lixiang.service;
 
+import com.lixiang.service.impl.PaymentHystrixFeignFallbackService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -13,7 +14,8 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @date 2022/2/7 15:28
  */
 @Component
-@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX")
+//@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX")
+@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX", fallback = PaymentHystrixFeignFallbackService.class)
 public interface PaymentHystrixFeignService {
 
     @GetMapping("/provider/hystrix/info/{id}")
@@ -21,4 +23,8 @@ public interface PaymentHystrixFeignService {
 
     @GetMapping("/provider/hystrix/info-timeout/{id}")
     public String providerInfoTimeout(@PathVariable("id") Integer id);
+
+
+    @GetMapping("/provider/hystrix/info-circuitBreaker/{id}")
+    public String providerInfoCircuitBreaker(@PathVariable("id") Integer id);
 }
