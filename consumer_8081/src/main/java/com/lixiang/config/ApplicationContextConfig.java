@@ -17,7 +17,7 @@ public class ApplicationContextConfig {
     /**
      * 开启负载均衡，默认是轮询
      */
-//    @LoadBalanced
+    @LoadBalanced
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }

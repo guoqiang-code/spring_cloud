@@ -1,0 +1,54 @@
+server:
+  port: 9501
+logging:
+  level:
+    cn.itcast: debug
+    org.springframework: debug
+spring:
+  application:
+    name: spring-cloud-gateway
+    #  cloud:
+    #    gateway:
+    #      routes:
+    #        - id: payment_routh1  #        - 路由的id，没有固定要求，但是要求唯一
+    #          uri: http://localhost:8079  #路由地址
+    #          predicates:
+    #            - Path=/provider/find/**  #断言，路径相匹配的进行路由
+    #
+    #        - id: payment_routh2
+    #          uri: http://localhost:8079
+    #          predicates:
+    #            - Path=/provider/getPort/**
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+      routes:
+        - id: payment_routh1  #        - 路由的id，没有固定要求，但是要求唯一
+          uri: lb://SPRING-CLOUD-PROVIDER  #动态路由地址
+          predicates:
+            - Path=/provider/find/**  #断言，路径相匹配的进行路由
+            - Header=X-Request-Id,\d+ #请求头要有X-Request-Id属性，并且值为整数的正则表达式
+            - Method=GET
+            - Query=username,\d+  #要有参数名username并且值还要是整数
+
+        - id: payment_routh2
+          uri: lb://SPRING-CLOUD-PROVIDER  #动态路由地址
+          predicates:
+            - Path=/provider/getPort/**
+            - After=2022-02-14T15:29:41.101+08:00[Asia/Shanghai]
+            - Cookie=username,zzyy
+eureka:
+  instance:
+    hostname: cloud-gateway-service
+  client:
+    #    将自己加入eureka服务
+    register-with-eureka: true
+    #    是否从eureka抓取自己的注册信息，默认为true
+    fetch-registry: true
+    service-url:
+      #      http://eureka7001.com路径需要在C:\Windows\System32\drivers\etc下的host文件中添加
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#      defaultZone: http://localhost:7001/eureka/

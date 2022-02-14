@@ -60,6 +60,7 @@ public class OrderController {
         log.error(forEntity.getStatusCode()+"\t"+forEntity.getStatusCodeValue()+"\n"+forEntity.getBody()+"\n"+forEntity.getHeaders());
         return forEntity;
     }
+
     @GetMapping("/consumer/findLB")
     public String getMyLB(){
         List<ServiceInstance> instances = discoveryClient.getInstances("SPRING-CLOUD-PROVIDER");
