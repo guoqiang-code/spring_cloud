@@ -21,6 +21,8 @@
         <module>cloud_consumer_feign_hystrix_8084</module>
         <module>cloud_hystrix_dashboard_9001</module>
         <module>cloud_gateway_gateway9501</module>
+        <module>cloud_center_config3344</module>
+        <module>cloud_center_client3355</module>
     </modules>
     <packaging>pom</packaging>
 

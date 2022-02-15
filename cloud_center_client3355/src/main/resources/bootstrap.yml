@@ -1,0 +1,32 @@
+server:   #bootstrap.yml 加载的比application.yml快
+  port: 3355
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      #      默认分支
+      label: main
+      name: application #配置文件名称 远程文件的前缀
+      profile: dev #读取的配置文件后缀
+      uri: http://localhost:3344 #配置中心地址
+#暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  level:
+    cn.itcast: debug
+    org.springframework: debug
+eureka:
+  client:
+    #    将自己加入eureka服务
+    register-with-eureka: true
+    #    是否从eureka抓取自己的注册信息，默认为true
+    fetch-registry: true
+    service-url:
+      #      http://eureka7001.com路径需要在C:\Windows\System32\drivers\etc下的host文件中添加
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#      defaultZone: http://localhost:7001/eureka/
