@@ -23,6 +23,7 @@
         <module>cloud_gateway_gateway9501</module>
         <module>cloud_center_config3344</module>
         <module>cloud_center_client3355</module>
+        <module>cloud_apollo_client3333</module>
     </modules>
     <packaging>pom</packaging>
 

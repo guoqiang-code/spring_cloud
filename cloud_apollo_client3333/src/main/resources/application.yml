@@ -1,0 +1,27 @@
+server:
+  port: 3333
+spring:
+  application:
+    name: cloud-apollo-client
+app:
+  id: springcloud-demo
+apollo:
+  meta: http://127.0.0.1:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
+logging:
+  level:
+    cn.itcast: debug
+    org.springframework: debug
+eureka:
+  client:
+    #    将自己加入eureka服务
+    register-with-eureka: true
+    #    是否从eureka抓取自己的注册信息，默认为true
+    fetch-registry: true
+    service-url:
+      #      http://eureka7001.com路径需要在C:\Windows\System32\drivers\etc下的host文件中添加
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#      defaultZone: http://localhost:7001/eureka/
