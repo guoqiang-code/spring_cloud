@@ -11,6 +11,11 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @date 2022/2/14 17:24
  *
  * http://localhost:3344/main/application-test.yml 测试路径
+ *
+ *
+ * 添加bus后可以一次刷新处处更新
+ * http://localhost:3344/actuator/bus-refresh 每个客户端都刷新
+ * http://localhost:3344/actuator/bus-refresh/cloud-config-client:3355 指定实例的通知更新
  */
 @SpringBootApplication
 @EnableConfigServer

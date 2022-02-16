@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/cloud_apollo_client3333/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_center_client3355/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_center_client3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_center_client3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_center_client3366/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_center_config3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_center_config3344/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_consumer_feign_hystrix_8084/src/main/java" charset="UTF-8" />
@@ -17,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/cloud_gateway_gateway9501/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_hystrix_dashboard_9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_hystrix_dashboard_9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_mq_bus9901/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_mq_bus9901/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_provider-hystrix-8078/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_provider-hystrix-8078/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />

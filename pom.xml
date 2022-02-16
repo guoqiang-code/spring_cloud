@@ -24,6 +24,8 @@
         <module>cloud_center_config3344</module>
         <module>cloud_center_client3355</module>
         <module>cloud_apollo_client3333</module>
+        <module>cloud_mq_bus9901</module>
+        <module>cloud_center_client3366</module>
     </modules>
     <packaging>pom</packaging>
 

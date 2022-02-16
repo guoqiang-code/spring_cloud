@@ -10,7 +10,13 @@ spring:
       name: application #配置文件名称 远程文件的前缀
       profile: dev #读取的配置文件后缀
       uri: http://localhost:3344 #配置中心地址
-#暴露监控端点
+  #rabbitMQ配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#暴露监控端点  可以发送请求刷新，不用重启
 management:
   endpoints:
     web:

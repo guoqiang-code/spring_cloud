@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud_center_client3355</artifactId>
+    <artifactId>cloud_center_client3366</artifactId>
 
     <dependencies>
         <!--消息总线rabbitMQ支持-->

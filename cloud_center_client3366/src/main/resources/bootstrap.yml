@@ -1,5 +1,5 @@
 server:   #bootstrap.yml 加载的比application.yml快
-  port: 3355
+  port: 3366
 spring:
   application:
     name: cloud-config-client

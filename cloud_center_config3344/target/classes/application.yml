@@ -10,8 +10,20 @@ spring:
           uri: https://github.com/guo-q123/springcloud-demo-config.git
           search-paths:
             - springcloud-demo-config
-#      默认分支
+      #      默认分支
       label: main
+    #rabbitMQ配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    #rabbitMQ相关配置，暴露bus刷新配置的端点
+management:
+  endpoints: #暴露bus刷新配置的断点
+    web:
+      exposure:
+        include: "bus-refresh"
 logging:
   level:
     cn.itcast: debug
