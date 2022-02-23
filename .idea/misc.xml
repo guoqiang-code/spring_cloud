@@ -16,6 +16,8 @@
       <set>
         <option value="$PROJECT_DIR$/cloud_consumer-feign-hystrix-8084/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_mq_bus9901/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8803/pom.xml" />
       </set>
     </option>
   </component>
