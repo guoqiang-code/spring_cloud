@@ -17,7 +17,7 @@ public class SendMsgController {
     @Resource
     private MsgProvider msgProvider;
 
-    @GetMapping("/getMsg")
+    @GetMapping("/sendMsg")
     public String send() {
         return msgProvider.send();
     }

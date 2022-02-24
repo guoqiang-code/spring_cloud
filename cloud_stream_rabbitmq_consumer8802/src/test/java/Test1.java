@@ -3,10 +3,8 @@ import org.junit.Test;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.ZoneId;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -65,6 +63,15 @@ public class Test1 {
 
         System.out.println(System.currentTimeMillis());
 
+        LocalDateTime time = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        System.out.println("time.format(formatter) = " + time.format(formatter));
+        LocalDateTime localDateTime = LocalDateTime.ofInstant(new Date(1645682665124L).toInstant(), ZoneOffset.systemDefault());
+        System.out.println(localDateTime.format(formatter));
+
+        System.out.println("time.toInstant(ZoneOffset.of(\"+8\")) = " + time.toInstant(ZoneOffset.of("+8")).toEpochMilli());
+
+        System.out.println();
 
     }
 

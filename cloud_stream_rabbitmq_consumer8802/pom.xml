@@ -12,12 +12,6 @@
     <artifactId>cloud_stream_rabbitmq_consumer8802</artifactId>
     <dependencies>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework</groupId>-->
-<!--            <artifactId>spring-jdbc</artifactId>-->
-<!--        </dependency>-->
-
-
         <!--stream配置-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

@@ -21,19 +21,18 @@
         <module name="consumer_feign_8083" />
         <module name="cloud_center_client3366" />
         <module name="cloud_stream_rabbitmq_consumer8802" />
+        <module name="common" />
         <module name="provider_8080" />
         <module name="cloud_consumer_feign_hystrix_8084" />
         <module name="cloud_apollo_client3333" />
         <module name="cloud_center_config3344" />
-        <module name="cloud_center_client3355" />
         <module name="consumer_8081" />
-        <module name="common" />
+        <module name="cloud_center_client3355" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud_consumer-feign-hystrix-8084" target="1.8" />
       <module name="cloud_mq_bus9901" target="1.8" />
-      <module name="cloud_stream_rabbitmq_consumer8803" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
