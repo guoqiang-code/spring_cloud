@@ -24,8 +24,8 @@ public class MsgConsumerServiceImpl implements MsgConsumerService {
 
     @Override
     @StreamListener(Sink.INPUT)
-    public String accept(Message<String> message) {
+    public void accept(Message<String> message) {
         log.error("消费者端口号："+serverPort+"\t消费的信息:"+message.getPayload());
-        return "消费者端口号："+serverPort+"\t消费的信息:"+message.getPayload();
+        System.out.println("消费者端口号："+serverPort+"\t消费的信息:"+message.getPayload());
     }
 }

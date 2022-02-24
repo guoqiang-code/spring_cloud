@@ -12,5 +12,5 @@ import org.springframework.messaging.Message;
 public interface MsgConsumerService {
 
 
-    public String accept(Message<String> message);
+    public void accept(Message<String> message);
 }

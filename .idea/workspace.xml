@@ -11,45 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/cloud_stream_rabbitmq_consumer8802.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/enums/TestEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/MsgConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/impl/MsgConsumerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/test/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8803/cloud_stream_rabbitmq_consumer8803.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8803/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/cloud_stream_rabbitmq_provider8801.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/java/com/lixiang/RabbitMQProviderMain8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/java/com/lixiang/controller/SendMsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/java/com/lixiang/service/MsgProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/java/com/lixiang/service/impl/MsgProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_client3355/target/classes/META-INF/cloud_center_client3355.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_config3344/target/classes/com/lixiang/CloudConfigCenter3344.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_center_config3344/target/classes/com/lixiang/CloudConfigCenter3344.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_server7001/target/classes/META-INF/cloud_eureka_server7001.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_gateway_gateway9501/target/classes/META-INF/cloud_gateway_gateway9501.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/cloud_mq_bus9901.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/src/main/java/com/lixiang/MQBusMain9901.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/RabbitMQConsumerMain8802.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_mq_bus9901/target/classes/com/lixiang/MQBusMain9901.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/target/classes/META-INF/consumer_8081.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/test/java/com/lixiang/Provider8080Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/test/java/com/lixiang/Provider8080Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/META-INF/provider_8080.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/test-classes/META-INF/provider_8080.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/test-classes/com/lixiang/Provider8080Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/test-classes/com/lixiang/Provider8080Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/MsgConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/MsgConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/impl/MsgConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/src/main/java/com/lixiang/service/impl/MsgConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/target/classes/com/lixiang/service/MsgConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/target/classes/com/lixiang/service/MsgConsumerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/target/classes/com/lixiang/service/impl/MsgConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/target/classes/com/lixiang/service/impl/MsgConsumerServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +253,7 @@
       <workItem from="1645067280002" duration="7000" />
       <workItem from="1645075124026" duration="18354000" />
       <workItem from="1645405976778" duration="4862000" />
-      <workItem from="1645609348386" duration="645000" />
+      <workItem from="1645609348386" duration="4351000" />
     </task>
     <servers />
   </component>
@@ -367,50 +335,50 @@
     </state>
     <state x="744" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642317569786" />
     <state x="744" y="262" key="FileChooserDialogImpl/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1644979243619" />
-    <state width="1502" height="365" key="GridCell.Tab.0.bottom" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.0.bottom" timestamp="1645668627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744845" />
-    <state width="1502" height="365" key="GridCell.Tab.0.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.0.center" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.0.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627848" />
+    <state width="1502" height="365" key="GridCell.Tab.0.center" timestamp="1645668627847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1502" height="365" key="GridCell.Tab.0.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.0.left" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.0.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627847" />
+    <state width="1502" height="365" key="GridCell.Tab.0.left" timestamp="1645668627847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1502" height="365" key="GridCell.Tab.0.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.0.right" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.0.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627847" />
+    <state width="1502" height="365" key="GridCell.Tab.0.right" timestamp="1645668627847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642344744844" />
-    <state width="1502" height="365" key="GridCell.Tab.0.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.1.bottom" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.0.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627847" />
+    <state width="1502" height="365" key="GridCell.Tab.1.bottom" timestamp="1645668627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010129" />
-    <state width="1502" height="365" key="GridCell.Tab.1.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.1.center" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.1.bottom/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627848" />
+    <state width="1502" height="365" key="GridCell.Tab.1.center" timestamp="1645668627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
-    <state width="1502" height="365" key="GridCell.Tab.1.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.1.left" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.1.center/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627848" />
+    <state width="1502" height="365" key="GridCell.Tab.1.left" timestamp="1645668627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
-    <state width="1502" height="365" key="GridCell.Tab.1.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
-    <state width="1502" height="365" key="GridCell.Tab.1.right" timestamp="1645609831229">
+    <state width="1502" height="365" key="GridCell.Tab.1.left/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627848" />
+    <state width="1502" height="365" key="GridCell.Tab.1.right" timestamp="1645668627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1527" height="332" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643948010128" />
-    <state width="1502" height="365" key="GridCell.Tab.1.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645609831229" />
+    <state width="1502" height="365" key="GridCell.Tab.1.right/1920.-112.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1645668627848" />
     <state width="1502" height="293" key="GridCell.Tab.2.bottom" timestamp="1644311655169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
