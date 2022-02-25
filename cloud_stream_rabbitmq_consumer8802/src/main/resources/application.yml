@@ -22,6 +22,8 @@ spring:
           destination: studyExchange #表示要使用的exchange类型
           content-type: application/json #设置消息类型，本次为json文本则为text/plain
           binder: defaultRabbit #设置要绑定的消息服务的具体设置
+#          group: consumer8802 #修改mq默认群组为自定义群组
+          group: consumerGQ #修改消费者mq群组为同一个群组
 logging:
   level:
     cn.itcast: debug
@@ -35,7 +37,7 @@ eureka:
     service-url:
       #      http://eureka7001.com路径需要在C:\Windows\System32\drivers\etc下的host文件中添加
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
-#      defaultZone: http://localhost:7001/eureka/
+  #      defaultZone: http://localhost:7001/eureka/
   instance:
     lease-renewal-interval-in-seconds: 2 #设置心跳的而时间间隔（默认三十秒）
     lease-expiration-duration-in-seconds: 5 #设置现在超过了五秒的间隔 默认是90秒

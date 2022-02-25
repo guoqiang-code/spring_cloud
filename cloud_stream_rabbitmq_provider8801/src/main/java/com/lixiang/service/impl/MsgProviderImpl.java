@@ -21,9 +21,11 @@ public class MsgProviderImpl implements MsgProvider {
     @Resource
     private MessageChannel output;//消息发送管道
 
+    //默认是不同的组，会出现重复消费
+    //更改成同一个组下消费可以避免重复消费
     @Override
     public String send() {
-        String msg="rabbitMQ消息发送，ID:"+ UUID.randomUUID();
+        String msg = "rabbitMQ消息发送，ID:" + UUID.randomUUID();
         output.send(MessageBuilder.withPayload(msg).build());
         System.out.println("发送成功~~~~~~~~~~~~~~~~~~~~~");
         return "欢迎光临";
