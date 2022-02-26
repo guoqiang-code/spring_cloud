@@ -1,0 +1,4 @@
+D:\all_project\spring_cloud\spring_cloud\cloud_consumer_feign_hystrix_8084\src\main\java\com\lixiang\ConsumerFeignHystrix8084.java
+D:\all_project\spring_cloud\spring_cloud\cloud_consumer_feign_hystrix_8084\src\main\java\com\lixiang\controller\OrderController.java
+D:\all_project\spring_cloud\spring_cloud\cloud_consumer_feign_hystrix_8084\src\main\java\com\lixiang\service\impl\PaymentHystrixFeignFallbackService.java
+D:\all_project\spring_cloud\spring_cloud\cloud_consumer_feign_hystrix_8084\src\main\java\com\lixiang\service\PaymentHystrixFeignService.java

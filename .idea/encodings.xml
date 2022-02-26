@@ -28,7 +28,6 @@
     <file url="file://$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_8081/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_8081/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_feign_8083/src/main/java" charset="UTF-8" />

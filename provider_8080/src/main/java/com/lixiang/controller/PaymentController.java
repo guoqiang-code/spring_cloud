@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 @RestController
-@Api(value="测试数据",tags = "测试1")
+@Api(value = "测试数据", tags = "测试1")
 public class PaymentController {
 
     @Autowired
@@ -28,19 +28,19 @@ public class PaymentController {
     @Value("${server.port}")
     private String port;
 
-    @ApiOperation(value="添加")
+    @ApiOperation(value = "添加")
     @PostMapping("/provider/insert")
     public Result insert(@RequestBody Payment payment) {
         int insert = paymentService.insert(payment);
-        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:"+port,payment);
+        Result<Payment> paymentResult = new Result<>(200, "成功,serverPort:" + port, payment);
         return paymentResult;
     }
 
-    @ApiOperation(value="查找")
+    @ApiOperation(value = "查找")
     @GetMapping("/provider/find/{id}")
     public Result<Payment> findById(@PathVariable(value = "id") Long id) {
         Payment payment = paymentService.selectByPrimaryKey(id);
-        Result<Payment> result = new Result<>(200,"成功,serverPort:"+port,payment);
+        Result<Payment> result = new Result<>(200, "成功,serverPort:" + port, payment);
         return result;
     }
 
@@ -50,12 +50,17 @@ public class PaymentController {
     }
 
     @GetMapping("/provider/feign/timeout")
-    public String feignTimeout(){
+    public String feignTimeout() {
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return port;
+    }
+
+    @GetMapping("/provider/zipkin")
+    public String getZipKin() {
+        return "zipkin~~~~~port:" + port;
     }
 }

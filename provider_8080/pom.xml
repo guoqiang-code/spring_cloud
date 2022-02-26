@@ -23,6 +23,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.lixiang</groupId>
             <artifactId>common</artifactId>
             <version>1.0-SNAPSHOT</version>

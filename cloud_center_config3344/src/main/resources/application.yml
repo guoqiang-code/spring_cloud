@@ -10,6 +10,7 @@ spring:
           uri: https://github.com/guo-q123/springcloud-demo-config.git
           search-paths:
             - springcloud-demo-config
+        default-label: main
       #      默认分支
       label: main
     #rabbitMQ配置

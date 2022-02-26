@@ -1,0 +1,6 @@
+com\lixiang\lb\impl\LoadBalancerImpl.class
+com\lixiang\config\ApplicationContextConfig.class
+com\lixiang\controller\OrderController.class
+com\chj\rule\NetflixRule.class
+com\lixiang\Consumer8081.class
+com\lixiang\lb\LoadBalancer.class

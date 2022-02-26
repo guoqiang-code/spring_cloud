@@ -1,0 +1,4 @@
+com\lixiang\service\impl\PaymentHystrixFeignFallbackService.class
+com\lixiang\controller\OrderController.class
+com\lixiang\ConsumerFeignHystrix8084.class
+com\lixiang\service\PaymentHystrixFeignService.class

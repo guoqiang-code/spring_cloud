@@ -75,4 +75,9 @@ public class OrderController {
 
         return restTemplate.getForObject(uri+"provider/getPort",String.class);
     }
+
+    @GetMapping("/consumer/zipkin")
+    public String getZipKin(){
+        return restTemplate.getForObject(PROVIDER_URL+"/provider/zipkin",String.class);
+    }
 }

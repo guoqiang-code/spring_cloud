@@ -1,0 +1,5 @@
+com\lixiang\util\JsonWebTokenUtils.class
+com\lixiang\util\TokenCheckException.class
+com\lixiang\entity\Result.class
+com\lixiang\service\GlobalFallback.class
+com\lixiang\entity\Payment.class

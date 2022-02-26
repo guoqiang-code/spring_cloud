@@ -1,0 +1,4 @@
+com\lixiang\controller\OrderFeignController.class
+com\lixiang\service\PaymentFeignService.class
+com\lixiang\config\FeignConfig.class
+com\lixiang\ConsumerFeign8083.class

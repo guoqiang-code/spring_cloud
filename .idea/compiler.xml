@@ -7,27 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud_provider-hystrix-8078" />
-        <module name="cloud_hystrix_dashboard_9001" />
-        <module name="cloud_stream_rabbitmq_consumer8803" />
+        <module name="cloud_consumer_feign_hystrix_8084" />
+        <module name="cloud_center_config3344" />
+        <module name="cloud_center_client3366" />
+        <module name="cloud_center_client3355" />
         <module name="provider_consul_8090" />
-        <module name="consumer_sonsul_8082" />
         <module name="provider_8079" />
         <module name="cloud_gateway_gateway9501" />
-        <module name="cloud_stream_rabbitmq_provider8801" />
-        <module name="cloud_eureka_server7002" />
-        <module name="cloud_eureka_server7001" />
-        <module name="cloud_consumer-feign-hystrix-8084" />
-        <module name="consumer_feign_8083" />
-        <module name="cloud_center_client3366" />
+        <module name="cloud_provider-hystrix-8078" />
         <module name="cloud_stream_rabbitmq_consumer8802" />
+        <module name="cloud_stream_rabbitmq_consumer8803" />
+        <module name="cloud_eueka_server7001" />
+        <module name="cloud_consumer-feign-hystrix-8084" />
+        <module name="cloud_stream_rabbitmq_provider8801" />
         <module name="common" />
-        <module name="provider_8080" />
-        <module name="cloud_consumer_feign_hystrix_8084" />
-        <module name="cloud_apollo_client3333" />
-        <module name="cloud_center_config3344" />
         <module name="consumer_8081" />
-        <module name="cloud_center_client3355" />
+        <module name="provider_8080" />
+        <module name="cloud_hystrix_dashboard_9001" />
+        <module name="cloud_apollo_client3333" />
+        <module name="cloud_eureka_server7002" />
+        <module name="consumer_sonsul_8082" />
+        <module name="consumer_feign_8083" />
+        <module name="cloud_eureka_server7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

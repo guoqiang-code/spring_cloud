@@ -1,0 +1,4 @@
+com\lixiang\service\impl\MsgProviderImpl.class
+com\lixiang\service\MsgProvider.class
+com\lixiang\controller\SendMsgController.class
+com\lixiang\RabbitMQProviderMain8801.class

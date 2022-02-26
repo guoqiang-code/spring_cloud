@@ -1,0 +1,4 @@
+com\lixiang\controller\ConsumerController.class
+com\lixiang\RabbitMQConsumerMain8803.class
+com\lixiang\service\impl\MsgConsumerServiceImpl.class
+com\lixiang\service\MsgConsumerService.class

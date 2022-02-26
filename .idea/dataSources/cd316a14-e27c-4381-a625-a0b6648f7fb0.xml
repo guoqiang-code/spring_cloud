@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="spring_cloud@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.18">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.23">
     <root id="1">
       <ServerVersion>8.0.25</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -955,13 +955,11 @@
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
     </column>
     <column id="304" parent="302" name="serial">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
     </column>
     <key id="305" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
