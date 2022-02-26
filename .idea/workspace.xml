@@ -14,25 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/NacosConsumerMain9200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/config/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/java/com/lixiang/NacosProviderMain9100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/java/com/lixiang/NacosProviderMain9101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_config_10100/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/java/com/lixiang/NacosConfigMain10100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/java/com/lixiang/com/lixiang/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos_consumer_9200/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos_config_10100/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,11 +101,11 @@
       <recent name="com.lixiang.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_config_10100\src\main\resources" />
       <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_consumer_9200\src\main\resources" />
       <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main\resources" />
       <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main" />
       <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main\java" />
-      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9100\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lixiang" />
@@ -138,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerMain9200">
+  <component name="RunManager" selected="Spring Boot.NacosConfigMain10100">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider_8080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.Provider8080" />
@@ -155,6 +145,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.Consumer8081" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigMain10100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos_config_10100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lixiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.NacosConfigMain10100" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,34 +201,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Provider8079" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="provider_8079" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lixiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.Provider8079" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.App" />
-      <item itemvalue="Spring Boot.Provider8079" />
       <item itemvalue="Spring Boot.Consumer8081" />
       <item itemvalue="Spring Boot.NacosProviderMain9100" />
       <item itemvalue="Spring Boot.NacosProviderMain9101" />
       <item itemvalue="Spring Boot.NacosConsumerMain9200" />
+      <item itemvalue="Spring Boot.NacosConfigMain10100" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConfigMain10100" />
         <item itemvalue="Spring Boot.NacosConsumerMain9200" />
         <item itemvalue="Spring Boot.NacosProviderMain9101" />
         <item itemvalue="Spring Boot.NacosProviderMain9100" />
         <item itemvalue="Spring Boot.Consumer8081" />
-        <item itemvalue="Spring Boot.Provider8079" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +270,7 @@
       <workItem from="1645840495564" duration="4524000" />
       <workItem from="1645846288005" duration="376000" />
       <workItem from="1645846796169" duration="2870000" />
-      <workItem from="1645851064669" duration="9541000" />
+      <workItem from="1645851064669" duration="13852000" />
     </task>
     <servers />
   </component>

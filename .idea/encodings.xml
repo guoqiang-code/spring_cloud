@@ -34,6 +34,8 @@
     <file url="file://$PROJECT_DIR$/consumer_feign_8083/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_sonsul_8082/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_sonsul_8082/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos_config_10100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos_config_10100/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos_consumer_9200/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos_consumer_9200/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos_provider_9100/src/main/java" charset="UTF-8" />

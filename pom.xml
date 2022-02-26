@@ -31,6 +31,7 @@
         <module>nacos_provider_9100</module>
         <module>nacos_provider_9101</module>
         <module>nacos_consumer_9200</module>
+        <module>nacos_config_10100</module>
     </modules>
     <packaging>pom</packaging>
 

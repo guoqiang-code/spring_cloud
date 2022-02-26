@@ -12,6 +12,7 @@
         <module name="cloud_center_client3355" />
         <module name="provider_8079" />
         <module name="cloud_consumer-feign-hystrix-8084" />
+        <module name="nacos_config_10100" />
         <module name="common" />
         <module name="consumer_8081" />
         <module name="provider_8080" />
