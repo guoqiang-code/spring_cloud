@@ -59,6 +59,7 @@ public class PaymentController {
         return port;
     }
 
+    //下载地址https://repo1.maven.org/maven2/io/zipkin/zipkin-server/2.23.9/zipkin-server-2.23.9-exec.jar
     @GetMapping("/provider/zipkin")
     public String getZipKin() {
         return "zipkin~~~~~port:" + port;

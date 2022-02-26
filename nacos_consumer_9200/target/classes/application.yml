@@ -1,0 +1,12 @@
+server:
+  port: 9200
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: nacos-consumer-server
+
+service-url:
+  nacos-user-service: http://nacos-provider-server

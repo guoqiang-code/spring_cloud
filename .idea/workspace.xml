@@ -14,49 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/NacosConsumerMain9200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_consumer_9200/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/java/com/lixiang/NacosProviderMain9100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9100/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/java/com/lixiang/NacosProviderMain9101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/java/com/lixiang/controller/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos_provider_9101/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cd316a14-e27c-4381-a625-a0b6648f7fb0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cd316a14-e27c-4381-a625-a0b6648f7fb0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_apollo_client3333/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_apollo_client3333/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_client3355/cloud_center_client3355.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_client3366/cloud_center_client3366.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_config3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_center_config3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_center_config3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_center_config3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer_feign_hystrix_8084/cloud_consumer_feign_hystrix_8084.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_server7002/cloud_eureka_server7002.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_gateway_gateway9501/cloud_gateway_gateway9501.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8802/cloud_stream_rabbitmq_consumer8802.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_consumer8803/cloud_stream_rabbitmq_consumer8803.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_stream_rabbitmq_provider8801/cloud_stream_rabbitmq_provider8801.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/consumer_8081.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/src/main/java/com/lixiang/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/src/main/java/com/lixiang/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_8081/target/classes/com/lixiang/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_8081/target/classes/com/lixiang/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_feign_8083/consumer_feign_8083.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_sonsul_8082/consumer_sonsul_8082.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8079/provider_8079.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8079/src/main/java/com/lixiang/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8079/src/main/java/com/lixiang/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8079/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8079/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8079/target/classes/com/lixiang/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8079/target/classes/com/lixiang/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/java/com/lixiang/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_8080/target/classes/com/lixiang/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_consul_8090/provider_consul_8090.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Kotlin File" />
         <option value="Enum" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -104,6 +80,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -113,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../maven/apache-maven-3.8.4/conf/settings.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos_consumer_9200/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -122,7 +99,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25632185" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -134,11 +111,11 @@
       <recent name="com.lixiang.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\guoqiang3\project\spring_cloud_demo\cloud_stream_rabbitmq_consumer8803\src\main\java\com\lixiang" />
-      <recent name="D:\guoqiang3\project\spring_cloud_demo\cloud_stream_rabbitmq_consumer8803\src\main\resources" />
-      <recent name="D:\guoqiang3\project\spring_cloud_demo\cloud_stream_rabbitmq_consumer8803\src\main\java" />
-      <recent name="D:\guoqiang3\project\spring_cloud_demo\cloud_stream_rabbitmq_consumer8802\src\main\resources" />
-      <recent name="D:\guoqiang3\project\spring_cloud_demo\cloud_stream_rabbitmq_provider8801\src\main\resources" />
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_consumer_9200\src\main\resources" />
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main\resources" />
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main" />
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9101\src\main\java" />
+      <recent name="D:\all_project\spring_cloud\spring_cloud\nacos_provider_9100\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lixiang" />
@@ -161,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer7002">
+  <component name="RunManager" selected="Spring Boot.NacosConsumerMain9200">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider_8080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.Provider8080" />
@@ -182,28 +159,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud_eueka_server7001" />
+    <configuration name="NacosConsumerMain9200" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos_consumer_9200" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lixiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.EurekaServer7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.NacosConsumerMain9200" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud_eureka_server7002" />
+    <configuration name="NacosProviderMain9100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos_provider_9100" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lixiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.EurekaServer7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.NacosProviderMain9100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderMain9101" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos_provider_9101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lixiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.NacosProviderMain9101" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,34 +211,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQConsumerMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud_stream_rabbitmq_consumer8803" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lixiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lixiang.RabbitMQConsumerMain8803" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.App" />
-      <item itemvalue="Spring Boot.RabbitMQConsumerMain8803" />
       <item itemvalue="Spring Boot.Provider8079" />
       <item itemvalue="Spring Boot.Consumer8081" />
-      <item itemvalue="Spring Boot.EurekaServer7001" />
-      <item itemvalue="Spring Boot.EurekaServer7002" />
+      <item itemvalue="Spring Boot.NacosProviderMain9100" />
+      <item itemvalue="Spring Boot.NacosProviderMain9101" />
+      <item itemvalue="Spring Boot.NacosConsumerMain9200" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConsumerMain9200" />
+        <item itemvalue="Spring Boot.NacosProviderMain9101" />
+        <item itemvalue="Spring Boot.NacosProviderMain9100" />
         <item itemvalue="Spring Boot.Consumer8081" />
         <item itemvalue="Spring Boot.Provider8079" />
-        <item itemvalue="Spring Boot.EurekaServer7002" />
-        <item itemvalue="Spring Boot.EurekaServer7001" />
-        <item itemvalue="Spring Boot.RabbitMQConsumerMain8803" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +279,8 @@
       <workItem from="1645797683033" duration="3187000" />
       <workItem from="1645840495564" duration="4524000" />
       <workItem from="1645846288005" duration="376000" />
-      <workItem from="1645846796169" duration="1739000" />
+      <workItem from="1645846796169" duration="2870000" />
+      <workItem from="1645851064669" duration="9541000" />
     </task>
     <servers />
   </component>

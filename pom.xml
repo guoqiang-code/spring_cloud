@@ -28,6 +28,9 @@
         <module>cloud_stream_rabbitmq_provider8801</module>
         <module>cloud_stream_rabbitmq_consumer8802</module>
         <module>cloud_stream_rabbitmq_consumer8803</module>
+        <module>nacos_provider_9100</module>
+        <module>nacos_provider_9101</module>
+        <module>nacos_consumer_9200</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -48,8 +51,13 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+            <version>2.2.7.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
