@@ -14,15 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01630426-b1d2-4069-a9b1-b5c86bb1b735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nacos_config_10100/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/java/com/lixiang/NacosConfigMain10100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/java/com/lixiang/com/lixiang/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos_config_10100/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos_consumer_9200/target/classes/com/lixiang/controller/NacosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos_consumer_9200/target/classes/com/lixiang/controller/NacosController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +263,8 @@
       <workItem from="1645840495564" duration="4524000" />
       <workItem from="1645846288005" duration="376000" />
       <workItem from="1645846796169" duration="2870000" />
-      <workItem from="1645851064669" duration="13852000" />
+      <workItem from="1645851064669" duration="13999000" />
+      <workItem from="1645928272354" duration="3297000" />
     </task>
     <servers />
   </component>
